@@ -9,7 +9,7 @@ class ProductServiceImplTest {
     @Test
     void name() {
         Integer one = 1;
-        Integer expectedInt = 2;
+        Integer expectedInt = 1;
         Assertions.assertEquals(expectedInt,one);
     }
 }

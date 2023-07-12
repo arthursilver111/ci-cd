@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.prodcuts.service.impl.ProductServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.example.prodcuts.service.impl.ProductServiceImplTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.example.prodcuts.service.impl.ProductServiceImplTest
+name  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at com.example.prodcuts.service.impl.ProductServiceImplTest.name(ProductServiceImplTest.java:13)
+
